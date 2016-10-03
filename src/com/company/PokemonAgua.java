@@ -5,6 +5,16 @@ package com.company;
  */
 public class PokemonAgua extends Pokemon {
 
+ public PokemonAgua(String nombre, int puntosCombate, String color, double peso, String genero, double altura, String habilidad){
+     super(nombre,puntosCombate,color,peso,genero,altura,habilidad);
+ }
 
+ public void nadar(){
+     System.out.println(getNombre() + " está nadando!");
+ }
+
+ public void chorroDeAgua(){
+     System.out.println(getNombre() + " ataca con chorro de agua!");
+ }
 
 }

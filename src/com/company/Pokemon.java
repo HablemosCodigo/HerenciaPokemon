@@ -13,6 +13,16 @@ public class Pokemon {
     private double altura;
     private String habilidad;
 
+    public Pokemon(String nombre, int puntosCombate, String color, double peso, String genero, double altura, String habilidad) {
+        this.nombre = nombre;
+        this.puntosCombate = puntosCombate;
+        this.color = color;
+        this.peso = peso;
+        this.genero = genero;
+        this.altura = altura;
+        this.habilidad = habilidad;
+    }
+
 
     public String getNombre(){
         return nombre;
