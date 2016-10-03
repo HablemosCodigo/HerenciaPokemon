@@ -80,4 +80,12 @@ public class Pokemon {
     public void setHabilidad(String habilidad){
         this.habilidad = habilidad;
     }
+
+    public void correr(){
+        System.out.println(getNombre() + " está corriendo!");
+    }
+
+    public void esquivar(){
+        System.out.println(getNombre() + " esquivó el ataque!");
+    }
 }
