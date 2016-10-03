@@ -15,6 +15,6 @@ public class PokemonTierra extends Pokemon{
     }
 
     public void terremoto (){
-        System.out.print(getNombre() + " usó terremoto!");
+        System.out.println(getNombre() + " usó terremoto!");
     }
 }
