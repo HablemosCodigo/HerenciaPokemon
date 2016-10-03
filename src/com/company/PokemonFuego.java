@@ -3,5 +3,7 @@ package com.company;
 /**
  * Created by robert on 10/2/16.
  */
-public class PokemonFuego {
+public class PokemonFuego extends Pokemon {
+
+
 }
